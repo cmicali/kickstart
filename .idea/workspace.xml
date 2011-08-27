@@ -125,13 +125,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cr/kickstart/util/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="566" selection-end="566" vertical-scroll-proportion="0.46471602">
+            <state line="18" column="0" selection-start="566" selection-end="566" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="0" selection-start="907" selection-end="907" vertical-scroll-proportion="0.6712565">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -922,19 +931,19 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="40" selection-start="2769" selection-end="2769" vertical-scroll-proportion="0.04475043">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cr/kickstart/util/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="566" selection-end="566" vertical-scroll-proportion="0.46471602">
+        <state line="18" column="0" selection-start="566" selection-end="566" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="907" selection-end="907" vertical-scroll-proportion="0.6712565">
+          <folding />
         </state>
       </provider>
     </entry>
