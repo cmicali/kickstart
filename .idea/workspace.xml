@@ -125,22 +125,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cr/kickstart/util/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="566" selection-end="566" vertical-scroll-proportion="0.0">
+            <state line="18" column="0" selection-start="566" selection-end="566" vertical-scroll-proportion="0.46471602">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="53" selection-start="3434" selection-end="3434" vertical-scroll-proportion="2.2461274">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -915,15 +906,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cr/kickstart/util/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="566" selection-end="566" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="107" column="0" selection-start="4073" selection-end="4073" vertical-scroll-proportion="-72.954544">
@@ -942,8 +924,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="53" selection-start="3434" selection-end="3434" vertical-scroll-proportion="2.2461274">
+        <state line="72" column="40" selection-start="2769" selection-end="2769" vertical-scroll-proportion="0.04475043">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cr/kickstart/util/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="566" selection-end="566" vertical-scroll-proportion="0.46471602">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -24,8 +24,6 @@
 
     <version>1.0-SNAPSHOT</version>
 
-    <packaging>war</packaging>
-
     <build>
         <finalName>kickstart</finalName>
         <plugins>
@@ -75,17 +73,35 @@
                 <version>1.1.1</version>
                 <executions>
                     <execution>
+                        <id>default</id>
                         <phase>package</phase>
                         <goals>
                             <goal>assemble</goal>
                         </goals>
                         <configuration>
-                            <assembleDirectory>target</assembleDirectory>
                             <generateRepository>false</generateRepository>
+                            <assembleDirectory>target</assembleDirectory>
                             <programs>
                                 <program>
                                     <mainClass>com.cr.kickstart.util.Main</mainClass>
-                                    <name>${app.name}</name>
+                                    <name>webapp</name>
+                                </program>
+                            </programs>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>default-cli</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>assemble</goal>
+                        </goals>
+                        <configuration>
+                            <generateRepository>false</generateRepository>
+                            <assembleDirectory>target</assembleDirectory>
+                            <programs>
+                                <program>
+                                    <mainClass>com.cr.kickstart.util.Main</mainClass>
+                                    <name>webapp</name>
                                 </program>
                             </programs>
                         </configuration>
