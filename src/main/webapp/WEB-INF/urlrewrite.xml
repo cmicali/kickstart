@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlrewrite>
+<!--
+    <rule>
+        <from>/api/products/search/(.*)</from>
+        <to>/api/products/search?query=$1</to>
+    </rule>
+
+    <rule>
+        <from>/api/products/([0-9]+)</from>
+        <to>/api/products/get?product_id=$1</to>
+    </rule>
+-->
+    <rule>
+        <from>^/$</from>
+        <to>/index</to>
+    </rule>
+
+</urlrewrite>
+

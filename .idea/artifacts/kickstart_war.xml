@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="kickstart:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="kickstart.war">
+      <element id="artifact" artifact-name="kickstart:war exploded" />
+    </root>
+  </artifact>
+</component>
