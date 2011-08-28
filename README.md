@@ -3,6 +3,8 @@ Overview
 
 Kickstart is a skeleton app and lightwieght framework for Java web apps.  The purpose is to make starting projects as low-effort as possible.
 
+Test
+
 Features
 --------
 
