@@ -1,9 +1,9 @@
 Overview
 ========
 
-Kickstart is a skeleton app and lightwieght framework for Java web apps.  The purpose is to make starting projects as low-effort as possible.
+Daily game changer branch.
 
-Test
+Kickstart is a skeleton app and lightwieght framework for Java web apps.  The purpose is to make starting projects as low-effort as possible.
 
 Features
 --------
