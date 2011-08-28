@@ -1,5 +1,7 @@
 package com.cr.kickstart.data;
 
+import com.cr.kickstart.framework.ServerConfig;
+
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;

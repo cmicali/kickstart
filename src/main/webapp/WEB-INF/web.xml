@@ -10,10 +10,12 @@
     <servlet>
         <servlet-name>APIEndpointDispatcherServlet</servlet-name>
         <servlet-class>com.cr.kickstart.framework.APIEndpointDispatcherServlet</servlet-class>
+<!--
         <init-param>
             <param-name>BaseUri</param-name>
-            <param-value>/api</param-value>
+            <param-value></param-value>
         </init-param>
+-->
         <init-param>
             <param-name>WebServices.Packages</param-name>
             <param-value>com.cr.sample.api</param-value>

@@ -168,8 +168,12 @@ public abstract class APIEndpoint {
     private static final ThreadLocal<EntityManager> entityManager = new ThreadLocal<EntityManager>();
 
     protected EntityManager getEntityManager(ServletContext servletContext) {
+        return getEntityManager(true, servletContext);
+    }
+
+    protected EntityManager getEntityManager(boolean loadIfRequired, ServletContext servletContext) {
         EntityManager em = entityManager.get();
-        if (em == null) {
+        if (em == null && loadIfRequired) {
             em = PersistenceManager.getInstance().getEntityManager(servletContext);
             em.getTransaction().begin();
             entityManager.set(em);
@@ -207,7 +211,7 @@ public abstract class APIEndpoint {
 			    handleRequest(jo, request, response, servletContext);
             }
             finally {
-                EntityManager em = getEntityManager(servletContext);
+                EntityManager em = getEntityManager(true, servletContext);
                 if (em != null) {
                     if (em.getTransaction().isActive()) {
                         em.getTransaction().rollback();

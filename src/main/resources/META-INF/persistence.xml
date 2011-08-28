@@ -29,10 +29,15 @@
     <persistence-unit name="app.data">
         <provider>org.hibernate.ejb.HibernatePersistence</provider>
         <properties>
+
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
             <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
-            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost/thehotness" />
-            <property name="javax.persistence.jdbc.user" value="root" />
-            <property name="javax.persistence.jdbc.password" value="9HotnessDB$" />
+
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost/sampledb" />
+            <property name="javax.persistence.jdbc.user" value="db" />
+            <property name="javax.persistence.jdbc.password" value="dbpass" />
+
+            <property name="hibernate.hbm2ddl.auto" value="create" />
 
             <property name="javax.persistence.sharedCache.mode" value="ENABLE_SELECTIVE" />
             <property name="hibernate.cache.use_query_cache" value="true"/>
@@ -55,10 +60,6 @@
             <property name="hibernate.c3p0.acquireRetryDelay" value="250" />
 
             <property name="hibernate.show_sql" value="true" />
-            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
-            <!--property name="hibernate.ejb.naming_strategy" value="com.whatsgd.data.util.DatabaseNamingStrategy"/-->
-
-            <property name="hibernate.hbm2ddl.auto" value="create" />
 
       </properties>
 

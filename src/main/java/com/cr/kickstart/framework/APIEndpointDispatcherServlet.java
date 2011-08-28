@@ -24,6 +24,7 @@ public class APIEndpointDispatcherServlet extends HttpServlet {
         super.init(config);
         String packagePrefix = config.getInitParameter("WebServices.Packages");
         String baseUri = config.getInitParameter("BaseUri");
+        if (baseUri == null) baseUri = "";
         serviceMap = new HashMap<String, APIEndpoint>();
         try {
             Set<Class> classes = ClasspathUtil.findClasses(getClass().getClassLoader(), packagePrefix);

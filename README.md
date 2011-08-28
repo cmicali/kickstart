@@ -7,9 +7,15 @@ Features
 --------
 
 * Java stack with sensible defaults
-** Java 1.6, Maven
-** Jetty 7
-** Hibernate 3 (annotations, c3p0)
-** Stripes
 * JSON API endpoint framework makes API development easy and fast
-* Ready to deploy to Heroku
+* Heroku compatible and ready to deploy
+
+Stack
+-----
+
+* Java 1.6
+* Maven
+* Jetty 7
+* Hibernate 3 (annotations, c3p0)
+* Stripes
+
